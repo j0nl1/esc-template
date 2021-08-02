@@ -1,0 +1,25 @@
+{
+  "name": "esc-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:frontend": "npm start -w @esc/client",
+    "start:blockchain": "npm start -w @esc/builder",
+    "compile:local": "npm run compile:local -w @esc/builder",
+    "build": "npm run build -w @esc/client"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "template",
+    "boilerplate",
+    "hardhat",
+    "solidit"
+  ],
+  "author": "Javier Aceña (j0nl1) <jonlitech@gmail.com>",
+  "license": "MIT"
+}
